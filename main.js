@@ -1,4 +1,4 @@
-// Replace with the key you created at https://cloud.google.com/console on a key.js file
+// Replace with the key you created at Clarifai on a key.js file
 //window.apiKey = '';
 
 "use strict";
