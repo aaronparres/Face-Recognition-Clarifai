@@ -1,0 +1,42 @@
+<!-- Copyright 2015, Google, Inc.
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Face Recognition - Grupo 5</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="key.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div class="mainContent">
+    <div class="box">
+      <h1>Face Recognition APP</h1>
+      <sub>Powered by <a href="https://clarifai.com/models/face-embedding-image-recognition-model-d02b4508df58432fbb84e800597b8959">Clarifai</a></sub>
+      <h4>Esta aplicación te dirá si dos fotos corresponden a la misma persona</h4><br />
+      <p>Escoge dos imágenes:</p>
+      <form id="fileform" action="" class="formulario">
+        <input type="file" name="fileField"><br /><br />
+        <input type="file" name="fileField_2"><br /><br />
+        <input type="submit" name="submit" value="Submit">
+      </form>
+      <div class="picturesBox" id="fotos"></div>
+      <p style="white-space:pre" id="results"></p>
+    </div>
+  </div>
+</body>
+</html>
